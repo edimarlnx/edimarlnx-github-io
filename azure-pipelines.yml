@@ -14,6 +14,6 @@ steps:
 
 - script: cd deployment && sh deploy.sh
   env:
-    GITHUB_USERNAME: ${deploy.github.username}
-    GITHUB_PASSWORD: ${deploy.github.password}
+    GITHUB_USERNAME: $(deploy.github.username)
+    GITHUB_PASSWORD: $(deploy.github.password)
   displayName: 'Build and deploy'
