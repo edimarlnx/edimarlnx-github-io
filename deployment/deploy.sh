@@ -14,7 +14,7 @@ cd ${SCRIPT_DIR}
 if [ -d ${GITHUB_PAGE} ]; then
   rm -rf ${GITHUB_PAGE}
 fi
-git clone git@github.com:edimarlnx/${GITHUB_PAGE}.git
+git clone https://github.com:edimarlnx/${GITHUB_PAGE}.git
 cd ${GITHUB_PAGE}
 rm -rf *.js *.css *.html assets rest
 cp -rp ../../dist/* ./
