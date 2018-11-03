@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Docker",
+    "category": "DevOps",
+    "link": ""
+  },
+  {
+    "name": "Angular",
+    "category": "Frontend",
+    "link": ""
+  },
+  {
+    "name": "React",
+    "category": "Frontend",
+    "link": ""
+  },
+  {
+    "name": "GO Lang",
+    "category": "Backend",
+    "link": ""
+  },
+  {
+    "name": "Node",
+    "category": "Backend",
+    "link": ""
+  },
+  {
+    "name": "Java",
+    "category": "Backend",
+    "link": ""
+  }
+]

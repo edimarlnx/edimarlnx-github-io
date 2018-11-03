@@ -37,3 +37,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+#production build
+/deployment/edimarlnx.github.io
