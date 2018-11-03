@@ -12,5 +12,5 @@ steps:
 - script: npm install
   displayName: 'Install npm Dependencies'
 
-- script: cd deployment && ./deploy.sh
+- script: cd deployment && sh deploy.sh
   displayName: 'Build and deploy'
