@@ -5,11 +5,13 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
+import { LeftMenuComponent } from './left-menu/left-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainMenuComponent
+    MainMenuComponent,
+    LeftMenuComponent
   ],
   imports: [
     BrowserModule,
