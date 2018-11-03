@@ -13,4 +13,7 @@ steps:
   displayName: 'Install npm Dependencies'
 
 - script: cd deployment && sh deploy.sh
+  env:
+    GITHUB_USERNAME: ${deploy.github.username}
+    GITHUB_PASSWORD: ${deploy.github.password}
   displayName: 'Build and deploy'
