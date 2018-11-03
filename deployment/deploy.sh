@@ -16,6 +16,8 @@ if [ -d ${GITHUB_PAGE} ]; then
 fi
 git clone https://${GITHUB_USERNAME}:${GITHUB_PASSWORD}@github.com/edimarlnx/${GITHUB_PAGE}.git
 cd ${GITHUB_PAGE}
+git config user.email "edimarlnx+azurepipelines@gmail.com"
+git config user.name "Azure Pipelines"
 rm -rf *.js *.css *.html assets rest
 cp -rp ../../dist/* ./
 git add .
