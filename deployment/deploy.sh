@@ -7,7 +7,7 @@ export COMMIT_MSG="Deploy by build on `date '+%Y-%m-%d %H:%M'`"
 
 # Build project
 cd ${PROJECT_DIR}
-ng build --prod
+./node_modules/@angular/cli/bin/ng build --prod
 
 # Publish project
 cd ${SCRIPT_DIR}
