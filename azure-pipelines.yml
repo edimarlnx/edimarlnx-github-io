@@ -1,0 +1,16 @@
+# Starter pipeline
+
+pool:
+  vmImage: 'Ubuntu 16.04'
+
+strategy:
+  matrix:
+    node_8_x:
+      node_version: 8.x
+
+steps:
+- script: npm install
+  displayName: 'Install npm Dependencies'
+
+- script: cd deployment && ./deploy.sh
+  displayName: 'Build and deploy'
