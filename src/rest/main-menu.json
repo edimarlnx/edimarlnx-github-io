@@ -2,31 +2,49 @@
   {
     "name": "Docker",
     "category": "DevOps",
-    "link": ""
+    "link": "",
+    "icon": "fab fa-docker"
+  },
+  {
+    "name": "Jenkins",
+    "category": "DevOps",
+    "link": "",
+    "icon": "fab fa-jenkins"
+  },
+  {
+    "name": "Terraform",
+    "category": "DevOps",
+    "link": "",
+    "icon": "fa fa-code"
   },
   {
     "name": "Angular",
     "category": "Frontend",
-    "link": ""
+    "link": "/c/frontend/angular",
+    "icon": "fab fa-angular"
   },
   {
     "name": "React",
     "category": "Frontend",
-    "link": ""
+    "link": "/c/frontend/react",
+    "icon": "fab fa-react"
   },
   {
     "name": "GO Lang",
     "category": "Backend",
-    "link": ""
+    "link": "",
+    "icon": "fab fa-dev"
   },
   {
     "name": "Node",
     "category": "Backend",
-    "link": ""
+    "link": "",
+    "icon": "fab fa-node"
   },
   {
     "name": "Java",
     "category": "Backend",
-    "link": ""
+    "link": "",
+    "icon": "fab fa-java"
   }
 ]

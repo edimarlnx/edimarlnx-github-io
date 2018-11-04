@@ -1,11 +1,15 @@
 <nav class="navbar">
   <div class="container">
     <div>
-      <ul class="navbar-nav">
+      <ul class="navbar-nav text-muted">
         <li class="nav-item" *ngFor="let entry of menuByCategory2">
-          <a href="#" >{{entry.key}}</a>
+          <h5>{{entry.key}}</h5>
           <ul>
-            <li *ngFor="let menu of entry.value"><a href="#" >{{menu.name}}</a></li>
+            <li class="list-unstyled" *ngFor="let menu of entry.value">
+              <a class="text-muted" routerLink="{{menu.link}}" routerLinkActive="active" >
+                <i class="fas fa-angle-right text-muted fa-xs "></i> {{menu.name}}
+                <i class="{{menu.icon}} icon-muted fa-sm"></i> </a>
+            </li>
           </ul>
         </li>
       </ul>
